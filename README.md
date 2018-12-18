@@ -81,7 +81,7 @@ This creates an MP4 file `segmentation.mp4` from the test images after the segme
 In this project, I trained the FCN-8s model for semantic segmentation.
 The followings are some key points of the implementation (for the detail,
 please refer to `layers()` in `main.py`,
-[the original paper on FCN-8s]((https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf))
+[the original paper on FCN-8s](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf)
 and [this post](https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/forum_archive/Semantic_Segmentation_advice.pdf)):
 
 - For the encoder part, the fully convolutional version of the pre-trained VGG16 model is used.
